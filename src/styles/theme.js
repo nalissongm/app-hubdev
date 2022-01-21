@@ -2,9 +2,12 @@ export const theme = {
   colors: {
     primaryColor: '#0384FC',
     secundaryColor: '#00D990',
+    primaryHoverColor: '#077BE8',
+    primaryColorButton: '#047AE8',
     bgPrimaryColor: '#EBF2FA',
+    bgHeaderColor: '#FFFFFF',
     white100Color: '#FFFFFF',
-    white75Color: 'background: rgba(255, 255, 255, 0.75)',
+    white75Color: 'rgba(255, 255, 255, 0.75)',
     white45Color: 'rgba(255, 255, 255, 0.45)',
     black50Color: 'rgba(0,0,0,0.5)',
     grayColor: 'rgba(123, 123, 123, 1)',

@@ -1,8 +1,8 @@
-import { Text } from '.';
+import { Heading } from './';
 
 export default {
-  title: 'Text',
-  component: Text,
+  title: 'Heading',
+  component: Heading,
   args: {
     children: 'Heading',
     size: 'huge',
@@ -11,7 +11,7 @@ export default {
   argTypes: {
     children: { type: 'string' },
     size: {
-      options: ['default', 'small', 'xsmall'],
+      options: ['small', 'large', 'huge'],
       control: { type: 'radio' },
     },
     color: {
@@ -24,7 +24,7 @@ export default {
 export const Template = (args) => {
   return (
     <div style={{ display: 'flex' }}>
-      <Text {...args} />
+      <Heading {...args} />
     </div>
   );
 };

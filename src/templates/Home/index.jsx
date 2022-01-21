@@ -1,10 +1,12 @@
-import { MenuLink } from '../../components/MenuLink';
+import { Menu } from '../../components/Menu';
+import { dataMenu } from '../../components/Menu/mock';
+
+import * as Styled from './styles';
 
 export const Home = () => {
   return (
-    <>
-      <MenuLink link="#">HubLocal</MenuLink>
-      <div>dfsdfsdfsdfsdfsadf</div>
-    </>
+    <Styled.Content>
+      <Menu dataMenu={dataMenu} visible />
+    </Styled.Content>
   );
 };
